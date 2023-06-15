@@ -1,0 +1,11 @@
+// Prueba: Nota media de examenes
+var Ex1 = prompt("Nota del primer examen","");
+var Ex2 = prompt("Nota del segundo examen","");
+var Ex3 = prompt("Nota del tercer examen","");
+
+// Calculadora de medias
+var suma = eval(Ex1) + eval(Ex2) + eval(Ex3);
+var media = suma / 3
+
+// Resultado Final
+alert(media)
